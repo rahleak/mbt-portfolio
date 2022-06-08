@@ -1,0 +1,10 @@
+.testimonialsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.testimonials {
+  width: 95%;
+}
