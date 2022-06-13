@@ -24,8 +24,6 @@ const FooterSeperate = () => {
             <Link path="/#contact" label="Contact Us"/>
             <Link path="/#employment" label="Employment"/>
             <Link path="/#testimonials" label="Indigenous Acknowledgement"/>
-            <Link path="terms" label="Terms and Conditions"/>
-            <Link path="privacy" label="Privacy Policy"/>
           </Flex>
 
           <Link

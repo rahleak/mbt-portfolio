@@ -51,8 +51,6 @@ const MobileDrawer = () => {
                 {label}
               </ScrollLink>
             ))}
-            <Link path="terms" label="Terms and Conditions"/>
-            <Link path="privacy" label="Privacy Policy"/>
           </Box>
         </Box>
       </Scrollbars>

@@ -36,8 +36,6 @@ export default function Footer() {
                 {label}
               </ScrollLink>
             ))}
-            <Link path="terms" label="Terms and Conditions"/>
-            <Link path="privacy" label="Privacy Policy"/>
           </Flex>
 
           <Link

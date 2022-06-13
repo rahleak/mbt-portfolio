@@ -7,25 +7,25 @@ import classes from "./services.module.css";
 const SERVICES_DATA = [
   {
     text:
-      "At Moonbeam Trading Company, our team of technology consultants and specialists applies the latest in technology innovation to solve your most important business challenges.",
+      "Information about your service",
     heading: "Technology",
     path: "#more"
   },
   {
     text:
-      "Our team of international trading specialists is active in engaging with new suppliers to source products from around the world.",
+    "Information about your service",
     heading: "Trade - Import and Export",
     path: "#products-and-partnerships"
   },
   {
     text:
-      "Moonbeam Trading Company is dedicated to offering quality products from around the world to our customers.",
+    "Information about your service",
     heading: "Ecommerce",
     path: "#online-store"
   },
   {
     text:
-      "Moonbeam Trading Company is collaborating with industry leaders and local farms to create innovative and sustainable agri-food solutions.",
+    "Information about your service",
     heading: "Agri-Food",
     path: "#more"
   }
@@ -41,7 +41,7 @@ const Services = () => {
       <Container>
         <BlockTitle
           title="What We Do"
-          text="Services that create business, customer and community value"
+          text="This is what we do!"
         />
         <Grid sx={styles.grid} className={classes.title}>
           {SERVICES_DATA.map(({ text, heading, path }, index) => (
