@@ -20,7 +20,7 @@ export default function Footer() {
       <footer sx={styles.header} className={classes.footer}>
         <Container sx={styles.container} className={classes.footer}>
           <Image src={logo} width="100px" marginLeft="40px" className={classes.image}/>
-          Copyright by {new Date().getFullYear()} Moonbeam Inc
+          Copyright {new Date().getFullYear()}
           <Flex as="nav" sx={styles.nav} className={classes.links}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink

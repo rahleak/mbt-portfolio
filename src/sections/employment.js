@@ -9,8 +9,8 @@ const EMPLOYMENT_DATA = [
   {
     image: applyImage,
     text: "Apply now!",
-    heading: "Data Scientist",
-    link: "https://uploads.documents.cimpress.io/v1/uploads/1ef18f45-35c6-4a0d-a04f-f9d84fd3b2a3~110/original?tenant=vbu-digital"
+    heading: "Sales Representative",
+    link: "https://google.com"
   }
 ];
 
@@ -29,9 +29,9 @@ const Employment = () => {
           </Box>
           <Box sx={styles.content} className={classes.content}>
             <Box sx={styles.heading} className={classes.header}>
-              <Text as="h1"> Join The Moonbeam Trading Company Team</Text>
+              <Text as="h1"> Join Our Team</Text>
               <br/>
-              <Heading as="h3">At Moonbeam Trading Company we hire locally</Heading>
+              <Heading as="h3">We hire locally</Heading>
             </Box>
             <Box sx={styles.jackpotCardBox} className={classes.features}>
               {EMPLOYMENT_DATA.map(({ image, heading, text, link }, index) => (
@@ -45,7 +45,7 @@ const Employment = () => {
               ))}
             </Box>
             <Box sx={styles.heading} className={classes.header}>
-              <Heading as="h3">Contact us about our opportunities at Jobs@moonbeamtrading.ca</Heading>
+              <Heading as="h3">Contact us about our opportunities at Jobs@yourcompany.ca</Heading>
             </Box>
           </Box>
         </Flex>

@@ -6,7 +6,7 @@ const AcknowledgementCard = () => {
   return (
     <Box sx={styles.acknowledgementCard} className={classes.bgImage}>
       <Box sx={styles.acknowledgementInfo} className={classes.content}>
-          <Text as="p">Moonbeam Trading Company would like to acknowledge the African Diaspora, its elders, 
+          <Text as="p">Your Company Here would like to acknowledge the African Diaspora, its elders, 
           their descendants and the lands upon which they live. For thousands of years African Indigenous
            peoples inhabited and cared for the land with a spiritual and cultural connection to the earth. 
            In particular we acknowledge the continuing efforts to reconnect and reclaim African Indigenous ways 
