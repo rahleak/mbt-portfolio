@@ -18,7 +18,7 @@ const Subscribe = () => {
 
     console.log(name, message, email)
 
-    fetch("https://formsubmit.co/ajax/moonbeamtradingco@gmail.com", {
+    fetch("", {
       method: "POST",
       headers: { 
           'Content-Type': 'application/json',

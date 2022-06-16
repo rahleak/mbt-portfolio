@@ -7,7 +7,7 @@ const TestimonialsCard = () => {
   return (
     <Box sx={styles.testimonialsCard} className={classes.bgImage}>
       <Box sx={styles.testimonialsInfo} className={classes.content}>
-          <Text as="p">Moonbeam Trading Company would like to acknowledge the 
+          <Text as="p">Your Company Here would like to acknowledge the 
           fact that the land on which we gather, and operate our business, is part 
           of the Treaty Lands and Territory of the Mississaugas of the Credit. For thousands of years, 
           Indigenous peoples inhabited and cared for this land. In particular we acknowledge the territory of 

@@ -6,7 +6,7 @@ import { Box, Text, Container, Flex, jsx } from 'theme-ui';
 import { Link } from 'components/link';
 import Image from "components/image";
 import { DrawerProvider } from "contexts/drawer/drawer.provider";
-import logo from "../../assets/moonbeamlogo.svg";
+import logo from "../../assets/YLH.svg";
 import menuItems from "./footer.data";
 import { Link as ScrollLink } from "react-scroll";
 import MobileDrawer from "./mobileDrawer";
@@ -19,7 +19,7 @@ export default function Footer() {
     <DrawerProvider className={classes.footer}>
       <footer sx={styles.header} className={classes.footer}>
         <Container sx={styles.container} className={classes.footer}>
-          <Image src={logo} width="100px" marginLeft="40px" className={classes.image}/>
+          <Image src={logo} width="80px" marginLeft="40px" className={classes.image}/>
           Copyright {new Date().getFullYear()}
           <Flex as="nav" sx={styles.nav} className={classes.links}>
             {menuItems.map(({ path, label }, i) => (

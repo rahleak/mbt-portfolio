@@ -10,6 +10,7 @@ export default function Logo({ image }) {
         variant: 'links.logo',
         display: 'flex',
         alignItems: 'center',
+        width: '100px'
       }}
     >
       <Image src={image} alt="startup landing logo" />

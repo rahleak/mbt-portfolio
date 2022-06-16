@@ -5,7 +5,7 @@ import { DrawerProvider } from "contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobileDrawer";
 import menuItems from "./header.data";
 import classes from "./header.module.css";
-import logo from "../../assets/moonbeamlogo.svg";
+import logo from "../../assets/YLH.svg";
 import Image from "components/image";
 
 export default function Header({ className }) {
@@ -64,8 +64,8 @@ const styles = {
     "&:hover": {
       color: "#fff",
       transform: "scale(1.02)",
-      boxShadow: "md"
-    }
+      boxShadow: "md",
+    },
   },
   header: {
     color: "text_white",
@@ -85,8 +85,8 @@ const styles = {
       backgroundColor: "background",
       color: "text",
       py: "15px",
-      boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)"
-    }
+      boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
+    },
   },
   container: {
     display: "flex",
@@ -94,15 +94,15 @@ const styles = {
     justifyContent: "space-evenly",
     width: [null, null, null, null, null, null, "1390px"],
     "@media screen and (max-width: 960px)": {
-      justifyContent: "space-between"
-    }
+      justifyContent: "space-between",
+    },
   },
   nav: {
     mx: "auto",
     justifyContent: "space-between",
     minWidth: "60%",
     "@media screen and (max-width: 960px)": {
-      display: "none"
+      display: "none",
     },
     navLink: {
       fontSize: "16px",
@@ -114,11 +114,11 @@ const styles = {
       mr: "48px",
       transition: "500ms",
       ":last-child": {
-        mr: "0"
+        mr: "0",
       },
       "&:hover, &.active": {
-        color: "primary"
-      }
-    }
-  }
+        color: "primary",
+      },
+    },
+  },
 };

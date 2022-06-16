@@ -7,7 +7,7 @@ import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link as ScrollLink } from 'react-scroll';
 import menuItems from './header.data';
 import Logo from 'components/logo';
-import mbLogo from 'assets/moonbeamMenu.png';
+import mbLogo from 'assets/YLH.svg';
 
 const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -35,7 +35,7 @@ const MobileDrawer = () => {
     >
       <Scrollbars autoHide>
         <Box sx={styles.content}>
-          <Logo image={mbLogo} />
+          <Logo image={mbLogo} width="20px"/>
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink

@@ -52,7 +52,7 @@ const StayConected = () => {
             Stay Connected
           </Box>
             <Text as="p">
-              Stay connected with everything Moonbeam
+              Stay connected with us!
             </Text>
           <input
             placeholder="Name"
