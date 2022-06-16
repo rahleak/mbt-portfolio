@@ -11,13 +11,13 @@ const JACKPOT_DATA = [
     image: jackpotImage1,
     text: "Discover a wide variety of products.",
     heading: "Shopify",
-    link: "https://moonbeam-trading-company.myshopify.com/"
+    link: "https:/google.com/"
   },
   {
     image: jackpotImage2,
     text: "Coming Soon! - Equipment, Surplus Inventory and Estate Auctions.",
     heading: "Online Auction",
-    link: "Subscribe at Auctions@moonbeamtrading.ca"
+    link: "https:/google.com/"
   }
 ];
 
@@ -51,7 +51,7 @@ const Jackpot = () => {
                 />
               ))}
             </Box>
-            <Text as="h1">Subscribe at Auctions@moonbeamtrading.ca</Text>
+            <Text as="h1">Subscribe at email@yourcompany.ca</Text>
           </Box>
         </Flex>
       </Container>

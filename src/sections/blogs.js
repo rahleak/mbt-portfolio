@@ -12,14 +12,14 @@ const BLOG_DATA = [
     image: blogImage1,
     title: 'Mission',
     description:
-      'Here at Moonbeam Trading Company we strive to provide world-class business and technology services in Canada, with the help of our valued employees and advancing technology.',
+      'Your companys mission statement',
     path: '/',
     linkLabel: null,
   },
   {
     image: blogImage2,
     title: 'Social Change',
-    description: 'Our goal is to achieve this by using sustainable products to initiate social change through community partnerships, collaboration, fair trading, ethical farming, and support of living wages. Most importantly, we will continue to care for and support the communities and the environment that we are a part of. ',
+    description: 'Your companys goal',
     path: '/',
     linkLabel: null,
   },
@@ -27,7 +27,7 @@ const BLOG_DATA = [
     image: blogImage3,
     title:
       'Vision',
-    description: 'Our vision is to have a positive social impact wherever we do business.',
+    description: 'Your companys vision',
     path: '/',
     linkLabel: null,
   },

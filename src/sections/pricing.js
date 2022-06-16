@@ -17,7 +17,7 @@ const PRICE_MONTHLY_DATA = [
       {
         status: true,
         label:
-          "Fair trade is an approach to international trade that is centered on equitable partnerships, transparency, and respect. It seeks to empower marginalized producers by providing them with safe working conditions, fair pay, and a means to establish a sustainable business free from exploitation. Moonbeam Trading Company is highly committed to the principles that govern fair trade."
+          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc."
       }
     ]
   },
@@ -29,39 +29,27 @@ const PRICE_MONTHLY_DATA = [
     options: [
       {
         status: true,
-        label: "Apparel"
+        label: "Product #1"
       },
       {
         status: true,
-        label: "Footwear"
+        label: "Product #2"
       },
       {
         status: true,
-        label: "Gift Items"
+        label: "Product #3"
       },
       {
         status: true,
-        label: "Handcrafted Artisan Products"
+        label: "Product #4"
       },
       {
         status: true,
-        label: "Oils and Creams"
+        label: "Product #5"
       },
       {
         status: true,
-        label: "Beads - Bags - Baskets"
-      },
-      {
-        status: true,
-        label: "Coffee"
-      },
-      {
-        status: true,
-        label: "Cocoa"
-      },
-      {
-        status: true,
-        label: "Jewelry and Accessories"
+        label: "Product #6"
       }
     ]
   }
@@ -77,7 +65,7 @@ const PRICE_YEARLY_DATA = [
       {
         status: true,
         label:
-          "At Moonbeam Trading Company we understand the importance of partnerships. We recognize the changing social, environmental and economic trends as we connect with like-minded partners to create sustainable economic and social benefits with each product and service we offer."
+          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc."
       }
     ]
   }
